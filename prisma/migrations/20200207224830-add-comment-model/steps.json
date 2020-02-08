@@ -1,0 +1,124 @@
+{
+  "version": "0.3.14-fixed",
+  "steps": [
+    {
+      "tag": "CreateField",
+      "model": "Country",
+      "field": "continents",
+      "type": "String",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "CountryRecord",
+      "field": "suspectedCountAdd",
+      "type": "Int",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "CountryRecord",
+      "field": "confirmedCountAdd",
+      "type": "Int",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "CountryRecord",
+      "field": "curedCountAdd",
+      "type": "Int",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "CountryRecord",
+      "field": "deadCountAdd",
+      "type": "Int",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "CountryRecord",
+      "field": "suspectedCountAddRate",
+      "type": "Int",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "CountryRecord",
+      "field": "confirmedCountAddRate",
+      "type": "Int",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "CountryRecord",
+      "field": "curedCountAddRate",
+      "type": "Int",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "CountryRecord",
+      "field": "deadCountAddRate",
+      "type": "Int",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "ProvinceRecord",
+      "field": "suspectedCountAddRate",
+      "type": "Int",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "ProvinceRecord",
+      "field": "confirmedCountAddRate",
+      "type": "Int",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "ProvinceRecord",
+      "field": "curedCountAddRate",
+      "type": "Int",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "ProvinceRecord",
+      "field": "deadCountAddRate",
+      "type": "Int",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "CityRecord",
+      "field": "suspectedCountAddRate",
+      "type": "Int",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "CityRecord",
+      "field": "confirmedCountAddRate",
+      "type": "Int",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "CityRecord",
+      "field": "curedCountAddRate",
+      "type": "Int",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "CityRecord",
+      "field": "deadCountAddRate",
+      "type": "Int",
+      "arity": "Required"
+    }
+  ]
+}

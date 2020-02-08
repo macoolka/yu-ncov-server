@@ -1,0 +1,117 @@
+datasource db {
+  provider = "sqlite"
+  url = "***"
+  default  = true
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+enum Role {
+  USER
+  VERIFIED
+  ADMIN
+}
+
+model User {
+  id                  String        @default(cuid()) @id
+  email               String        @unique
+  name                String?       @unique
+  nickname            String        @unique
+  password            String
+  avatar              Boolean       @default(false)
+  role                Role          @default(USER)
+  createdAt           DateTime      @default(now())
+  updatedAt           DateTime      @updatedAt
+}
+
+model Country {
+  id       String     @default(cuid()) @id
+  title    String     @unique
+  continents String?
+  provinces Province[]
+}
+
+model Province {
+  id      String  @default(cuid()) @id
+  title   String  @unique
+  country Country
+  cities  City[]
+}
+
+model City {
+  id       String   @default(cuid()) @id
+  title    String   
+  province Province
+  areas  Area[]
+}
+
+model Area {
+  id    String @default(cuid()) @id
+  title String 
+  city  City
+}
+
+model VirusInfo {
+  id          String @default(cuid()) @id
+  title       String @unique
+  description String
+}
+model CountryRecord {
+  id             String    @default(cuid()) @id
+  country        Country
+  continents String?
+  virus          VirusInfo
+  sourceUrl      String
+  suspectedCount Int
+  confirmedCount Int
+  curedCount     Int
+  deadCount      Int
+  seriousCount   Int?
+  suspectedAddCount Int?
+  confirmedAddCount Int?
+  curedAddCount     Int?
+  deadAddCount      Int?
+  seriousAddCount   Int?
+  recordAt       DateTime  
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+}
+
+model ProvinceRecord {
+  id             String    @default(cuid()) @id
+  country        Country
+  province       Province
+  virus          VirusInfo
+  sourceUrl      String
+  suspectedCount Int
+  confirmedCount Int
+  curedCount     Int
+  deadCount      Int
+
+  recordAt       DateTime  
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+
+}
+
+model CityRecord {
+  id             String    @default(cuid()) @id
+  country        Country
+  province       Province
+  city           City
+  virus          VirusInfo
+  sourceUrl      String
+  suspectedCount Int
+  confirmedCount Int
+  curedCount     Int
+  deadCount      Int
+  recordAt       DateTime  
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+ 
+}

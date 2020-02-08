@@ -1,0 +1,127 @@
+{
+  "version": "0.3.14-fixed",
+  "steps": [
+    {
+      "tag": "UpdateField",
+      "model": "Country",
+      "field": "continents",
+      "arity": "Optional"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "CountryRecord",
+      "field": "suspectedCountAdd"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "CountryRecord",
+      "field": "confirmedCountAdd"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "CountryRecord",
+      "field": "curedCountAdd"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "CountryRecord",
+      "field": "deadCountAdd"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "CountryRecord",
+      "field": "suspectedCountAddRate"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "CountryRecord",
+      "field": "confirmedCountAddRate"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "CountryRecord",
+      "field": "curedCountAddRate"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "CountryRecord",
+      "field": "deadCountAddRate"
+    },
+    {
+      "tag": "UpdateField",
+      "model": "CountryRecord",
+      "field": "seriousCount",
+      "arity": "Optional"
+    },
+    {
+      "tag": "UpdateField",
+      "model": "CountryRecord",
+      "field": "suspectedAddCount",
+      "arity": "Optional"
+    },
+    {
+      "tag": "UpdateField",
+      "model": "CountryRecord",
+      "field": "confirmedAddCount",
+      "arity": "Optional"
+    },
+    {
+      "tag": "UpdateField",
+      "model": "CountryRecord",
+      "field": "curedAddCount",
+      "arity": "Optional"
+    },
+    {
+      "tag": "UpdateField",
+      "model": "CountryRecord",
+      "field": "deadAddCount",
+      "arity": "Optional"
+    },
+    {
+      "tag": "UpdateField",
+      "model": "CountryRecord",
+      "field": "seriousAddCount",
+      "arity": "Optional"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "ProvinceRecord",
+      "field": "suspectedCountAddRate"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "ProvinceRecord",
+      "field": "confirmedCountAddRate"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "ProvinceRecord",
+      "field": "curedCountAddRate"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "ProvinceRecord",
+      "field": "deadCountAddRate"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "CityRecord",
+      "field": "suspectedCountAddRate"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "CityRecord",
+      "field": "confirmedCountAddRate"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "CityRecord",
+      "field": "curedCountAddRate"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "CityRecord",
+      "field": "deadCountAddRate"
+    }
+  ]
+}

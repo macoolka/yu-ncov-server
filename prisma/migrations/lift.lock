@@ -1,0 +1,11 @@
+# IF THERE'S A GIT CONFLICT IN THIS FILE, DON'T SOLVE IT MANUALLY!
+# INSTEAD EXECUTE `prisma lift fix`
+# lift lockfile v1
+# Read more about conflict resolution here: TODO
+
+20200203230602-add-comment-model
+20200205200423-add-comment-model
+20200207224830-add-comment-model
+20200207230701-add-comment-model
+20200207231112-add-comment-model
+20200208041749-add-comment-model
