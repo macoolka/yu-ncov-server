@@ -10,7 +10,7 @@
     "generate": "npm -s run generate:prisma && npm -s run generate:nexus",
     "generate:prisma": "prisma2 generate",
     "generate:nexus": "ts-node --transpile-only src/schema",
-    "postinstall23": "npm -s run generate",
+    "postinstall": "npm -s run generate",
     "dxy": "ts-node ./bin/dxy.ts",
     "migrate": "npm -s run migrate:create && npm -s run migrate:save",
     "migrate:create": "prisma2 migrate save --name 'add-comment-model' --experimental",
@@ -18,7 +18,7 @@
     "dev": "ts-node-dev --no-notify --respawn --transpileOnly src/server"
   },
   "dependencies": {
-    
+    "@prisma/client": "2.0.0-preview020.3",
     "@types/node-fetch": "2.5.4",
     "apollo-server": "^2.10.0",
     "bcryptjs": "2.4.3",
