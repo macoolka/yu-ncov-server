@@ -20,7 +20,7 @@
   "dependencies": {
     "@prisma/client": "2.0.0-preview020.3",
     "@types/node-fetch": "2.5.4",
-    "apollo-server": "^2.10.0",
+    "apollo-server": "^2.14.2",
     "bcryptjs": "2.4.3",
     "date-fns": "^2.9.0",
     "fp-ts": "^2.4.2",
