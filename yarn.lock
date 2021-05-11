@@ -356,6 +356,11 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
+"@prisma/client@2.0.0-preview020.3":
+  version "2.0.0-preview020.3"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.0.0-preview020.3.tgz#c1042cba540b580d8068f32654bb1e9519fc81a7"
+  integrity sha512-W+CXyj8Z1UFpWXDMMUTql2QdtxfDrNKYa2F7jdU/Qb5PKBankmQeDlUSWfBNWAoTHUREQ5Q+gGOFRVoHfMvaow==
+
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
   resolved "https://registry.npmjs.org/@protobufjs/aspromise/-/aspromise-1.1.2.tgz#9b8b0cc663d669a7d8f6f5d0893a14d348f30fbf"
@@ -2670,9 +2675,9 @@ has@^1.0.3:
     function-bind "^1.1.1"
 
 hosted-git-info@^2.1.4:
-  version "2.8.5"
-  resolved "https://registry.npm.taobao.org/hosted-git-info/download/hosted-git-info-2.8.5.tgz?cache=0&sync_timestamp=1570493570687&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fhosted-git-info%2Fdownload%2Fhosted-git-info-2.8.5.tgz#759cfcf2c4d156ade59b0b2dfabddc42a6b9c70c"
-  integrity sha1-dZz88sTRVq3lmwst+r3cQqa5xww=
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 html-encoding-sniffer@^1.0.2:
   version "1.0.2"
