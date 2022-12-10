@@ -356,6 +356,11 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
+"@prisma/client@2.0.0-preview020.3":
+  version "2.0.0-preview020.3"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.0.0-preview020.3.tgz#c1042cba540b580d8068f32654bb1e9519fc81a7"
+  integrity sha512-W+CXyj8Z1UFpWXDMMUTql2QdtxfDrNKYa2F7jdU/Qb5PKBankmQeDlUSWfBNWAoTHUREQ5Q+gGOFRVoHfMvaow==
+
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
   resolved "https://registry.npmjs.org/@protobufjs/aspromise/-/aspromise-1.1.2.tgz#9b8b0cc663d669a7d8f6f5d0893a14d348f30fbf"
@@ -4653,9 +4658,9 @@ qs@6.7.0:
   integrity sha1-QdwaAV49WB8WIXdr4xr7KHapsbw=
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.npm.taobao.org/qs/download/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha1-yzroBuh0BERYTvFUzo7pjUA/PjY=
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 range-parser@~1.2.1:
   version "1.2.1"
